@@ -1,0 +1,37 @@
+Device: Xiaomi Pad 5
+Device code name : nabu
+Device maintainer: zxcwsurx
+
+Date - 07-09-2025
+=================
+* Merged September 2025 Security CVEs (Level 1)
+* Spoof device as Pixel 10 Pro XL (mustang) by default 
+* Add complete UI translations for "Chinese [Simplified], German, Spanish [Spain, United States, Venezuela], Indonesian, Portuguese, Russian, Turkish, Vietnamese"
+* Bring back Clone apps feature
+* Add feature to allow hiding IME Space (empty space below keyboard)
+* Add QS Panel Header image customizations
+* Add functionality to change position of brightness slider on QS panel (top/bottom/unexpanded/etc.)
+* Add functionality to toggle whether to show auto brightness icon along QS brightness slider
+* Add brightness slider shapes customisation
+* Add toggleable data usage info on QS Panel
+* Fix launcher 4x5 grid
+* Fix occasional visible homescreen app hotseat when using transparent recents/app drawer interface
+* Generate monochrome themed icon for every missing icon
+* Add functionality to display weather details on lockscreen
+* Fixed overlapping of lockscreen small clock and face unlock icon
+* Remove unnecessary/extra spaces on lockscreen smartspace and make it aligned
+* Add bypass charging feature in gamespace (for devices which does support)
+* Fixed VPN disconnection on any app install/uninstall
+* Bring back support for lockscreen clock fonts
+* Fix Volume panel inactive row colors
+* Fixup fonts not updating on new compose QS
+* Improve ignore window secure level flags feature
+* Add adaptive playback feature
+* Add battery bar customisation
+* Fix systemui crashing on 0 volume step
+* GameManger: Enhance game detection and power mode activation logic
+* Improve and refactor QuickTap service/design
+* Remove mis-aligned text below battery bar in Settings battery section
+* Add lens shortcut to launcher app drawer search bar
+* Reduce space below home search bar
+=================
