@@ -1,11 +1,11 @@
 {
 	"response": [
 		{
-			"filename": "soon",
-			"download": "soon",
-			"timestamp": 1754771769,
-			"md5": "soon",
-			"size": soon,
+			"filename": "Project_Infinity-X-3.2-nabu-20250914-2239-GAPPS-UNOFFICIAL.zip",
+			"download": "https://github.com/hxfuxyy/infota/releases/download/InfinityX3.2/Project_Infinity-X-3.2-nabu-20250914-2239-GAPPS-UNOFFICIAL.zip",
+			"timestamp": 1757889569,
+			"md5": "066b48440fde2052fead69982383a1d8",
+			"size": 2076301333,
 			"version": "3.2"
 		}
 	]
