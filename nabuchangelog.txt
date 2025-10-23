@@ -2,8 +2,11 @@ Device: Xiaomi Pad 5
 Device code name : nabu
 Device maintainer: zxcwsurx
 
-Date - 21-10-2025
+Date - 23-10-2025
 =================
+- Update ViperFX version to 8.0
+- Fixed recovery displaying bug
+- Fixed offline charging displaying
 - Device tree source updated from dev_harsh repo
 - Switched to KernelSU-Next kernel with SusFS 1.5.9
 - Fixed "Google pay can't be used on this device" issue by default 
