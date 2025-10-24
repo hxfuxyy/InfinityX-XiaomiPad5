@@ -4,12 +4,11 @@ Device maintainer: zxcwsurx
 
 Date - 23-10-2025
 =================
-- Update ViperFX version to 8.0
+- Switched to KernelSU-Next kernel with SusFS 1.5.9
 - Fixed recovery displaying bug
 - Fixed offline charging displaying
+- Update ViperFX version to 8.0
 - Device tree source updated from dev_harsh repo
-- Switched to KernelSU-Next kernel with SusFS 1.5.9
-- Fixed "Google pay can't be used on this device" issue by default 
 - Completely fixed issues with carrier name and icon (mis-alignment) on quicksettings in both portrait and landscape orientation (that were since v2.x)
 - Allow disabling the clock in launcher quickspace
 - Allow changing colour of the lead character of quickspace clock
@@ -19,7 +18,6 @@ Date - 23-10-2025
 - Fixed stock qs clock overlap on light/dark theme change when qs clock header style enabled
 - Re-tune searchbar dimens on launcher homescreen
 - Aggressive patches for launcher3 quickspace memory consumption reduction with proper handling
-- Add support for LTE+ / 4G+ icon when carrier aggregation enabled
 - Allow disabling media player squiggle animation 
 - Add media player compact design toggle with seekbar and player buttons
 - Moved quicksettings media player below brightness bar in un-expanded QS when brightness bar position is set at always bottom
