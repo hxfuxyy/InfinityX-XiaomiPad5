@@ -2,6 +2,45 @@ Device: Xiaomi Pad 5
 Device code name : nabu
 Device maintainer: crsswrld5G
 
+Date - 01-12-2025
+=================
+- Bundles in the fix for bad systemui ux because of blur.
+- KsuN updated with latest patches & susfs 1.5.12.
+- susfs sus_maps support.
+- Xiaomi-sm8150-common upstream.
+- Fix multiple mic paths.
+- Remove support for FRP
+- Fixed jank for even smoother UX.
+- Upgrade the device to Audio Hal & Effects Hal 7.1 and 7.0 respectively.
+- Remove AUDIO_OUTPUT_FAST_FLAG from the primary output path to supress warnings.
+- Remove usecase files taht were causing the device to hard reboot on apps like discord.
+- Add NothingOS style ringer QS tile (author: rmp22)
+- Update Google sans flex font package to original latest release by google (author: neobuddy89)
+- Add system animation styles (Android P, Scale, Slide) (author: zeromod, Pzqqt, neobuddy89, kde-yyds, minaripenguin)
+- Allow to override Mock Location restriction (author: userariii)
+- More aggressive idle killing for improving idle draining
+- Fix messed up statusbar layout when wifi standard icon displayed (author: drkphnx)
+- Spoof developer options detection on bhim upi (author: hellboy017)
+- Only apply colored icon customizations to settings icons present on homepage, preventing them from getting applied on other options like under system settings etc.
+- Update monet custom color stub in theme picker from qpr1 (author: neobuddy89)
+- Add spark pulse renderer style (author: neobuddy89)
+- Add 3 more display cutouts (Render apps below cutout area, Hide, Wide cutout) (author: thestinger)
+- Hide many carrier/fingerprint/vibrator related options for devices which don't have the required hardware (like newer oneplus etc)
+- Move data disabled icon switch to statusbar tuner (author: hellboy017)
+- Move 4G icon instead LTE switch to statusbar tuner (author: RiteshSahany)
+- Adapt many more uncovered sections to Material expressive (author: neobuddy89, bgcngm)
+- Removed the large blank space from bundled notification and summarized notification settings
+- Fixup some toggle behaviour for batterybar
+- Fix statusbar half clipped issue for some devices on lockscreen
+- Add build date to device info page
+- Enable R8 code shrinking and optimizations by default (author: jdduke)
+- Smoother QS transition when blurs disabled (author: rbnj)
+- Make the about phone section cards enlarged again like v3.2 and v2.9
+- Add system-wide Italian translations
+- Add new oneplus udfps icon to custom udfps icons (author: Ghosuto)
+- Re-include contacts app from v3.2 and v2.9
+=================
+
 Date - 14-11-2025
 =================
 - Pass integrity by default once again
