@@ -1,12 +1,13 @@
 {
 	"response": [
 		{
-			"filename": "Project_Infinity-X-3.4-nabu-14.11.2025-GAPPS-UNOFFICIAL.zip",
-			"download": "https://github.com/hxfuxyy/infota/releases/download/InfinityX3.4v2/Project_Infinity-X-3.4-nabu-14.11.2025-GAPPS-UNOFFICIAL.zip",
-			"timestamp": 1763089012,
-			"md5": "3481317195f1affe936985cb3efcaf21",
-			"size": 1797171680,
-			"version": "3.4"
+			"filename": "Project_Infinity-X-3.5-nabu-01.12.2025-GAPPS-UNOFFICIAL.zip",
+			"download": "https://github.com/hxfuxyy/infota/releases/download/Infinityx3.5/Project_Infinity-X-3.5-nabu-01.12.2025-GAPPS-UNOFFICIAL.zip",
+			"timestamp": 1764564805,
+			"md5": "4799710accb862541584a0349b638bb9",
+			"size": 1796935873,
+			"version": "3.5"
 		}
 	]
 }
+
