@@ -2,6 +2,30 @@ Device: Xiaomi Pad 5
 Device code name : nabu
 Device maintainer: crsswrld5G
 
+Date - 09-12-2025
+=================
+- Merge tag 'android-security-16.0.0_r3' to multiple repos (Considerably huge changes)
+-Fixes choppy audio due to missing audio fast flag.
+- Bring back sound backend usecase files for scenarios.
+- Bring in Dex optimisations from OP8150-common
+- Inlined pinner configurations from OP8150-common
+- ignoreOrientationRequests is true, Rotate your apps however you like.
+- Switch to ClearKey APEX with widevine L1
+- More changes affecting UX of the overall OS.
+- Xiaomi SM8150-common kernel upstream.
+- Fix high battery drain / temperature rise in some normal-use instances that occured after v3.4 release
+- Fix higher idle drain loop in longer period of inactivity like at night
+- Allow user to enable glass blur effect system-wide, (its even better on qs panel which comes without any artefacts like that are present on default AOSP blur) (author: rmp22)
+- Allow disabling HDR display boot (author: rmp22)
+- Allow controlling HDR display brightness (author: rmp22)
+- Don't remove gamespace app from recents on exit (author: neobuddy89)
+- Fix adaptive playback toggle reset on page exit
+- Smoothen animations and transitions 
+- Allow importing GIF too as custom header image (author: kamikaonashi)
+- Disable keybox spoofing too if user disables "play integrity fix" toggle
+=================
+
+
 Date - 01-12-2025
 =================
 - Bundles in the fix for bad systemui ux because of blur.
