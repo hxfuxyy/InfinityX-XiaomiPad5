@@ -2,6 +2,9 @@ Device: Xiaomi Pad 5
 Device code name : nabu
 Device maintainer: crsswrld5G
 
+Please join to our new telegram group:
+https://t.me/InfinityXnabu
+
 Date - 09-12-2025
 =================
 - Merge tag 'android-security-16.0.0_r3' to multiple repos (Considerably huge changes)
