@@ -1,9 +1,28 @@
 Device: Xiaomi Pad 5
 Device code name : nabu
 Device maintainer: crsswrld5G
+our new telegram group: https://t.me/InfinityXnabu
 
-Please join to our new telegram group:
-https://t.me/InfinityXnabu
+Date - 29-12-2025
+=================
+- Merge tag 'android-16.0.0_r3' (QPR1) [Complete source rebase]
+- Some overlay updates for better blur handling.
+- Disable a few unneeded stuff here and there.
+- Xiaomi-SM8150-common upstream.
+- Support for Wifi Aware and Wifi RTT.
+- Fixed the brightness behaviour aligned with stock displayconfig.
+- Cleaned up redundant overlay configuration after the above change.
+- Disabled blur effects by default as mentioned just above
+- Major enhancements on GameSpace - improve statusbar call overlay / allow to disable headsup notification / improve danmaku notification layout / New gamespace panel layout and much more fixes and enhancements
+- Dropped some features due to incompatibility with QPR1 such as per-app volume control / volume steps / statusbar icon themes (in sake of new qpr1 statusbar) / flashlight strength / nothingos ringer tile / volume panel textview / system animation styles / bluetooth timeout. That's all, everything else is still present and intact
+- Make statusbar clock chip styles apply without restarting systemui
+- Fix weather daemon location hogging (author: neobuddy89)
+- Fix an occasional case where only notification panel was showed upon pull down without tiles.. (author: hellboy017)
+- Add new pulse render style (author: Ghosuto)
+- Fix smart pixels toggles reset on page exit
+- Fixed an issue where lawnicons didn't apply as themed icons direct after first boot
+=================
+
 
 Date - 09-12-2025
 =================
