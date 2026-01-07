@@ -3,6 +3,33 @@ Device code name : nabu
 Device maintainer: crsswrld5G
 our new telegram group: https://t.me/InfinityXnabu
 
+Date - 07-01-2025
+=================
+- Bump security string to January 2026 (author: mikeNG)
+- sepolicy gap fixes after pen charging impl
+- enable USB and skin temperature warnings
+- Fixed an unusal random reboot caused by BPF.
+- Fixed auto-brightness downscaling issue in low light.
+- Fixed the display scaling reported on devices with replaced & chineese panel.
+- Fixed a glitch where some apps were reporting and resizing to wrong resolution.
+- Implemented support for Stylus charging notification like stock for compatible stylus.
+- Upgraded kernel clang version to 21.
+- More upstream fixes in kernel.
+- Return app drawer pure black/white background (when opacity 100) to newly qpr1 introduced bottom sheet version of app drawer since the qpr1 blur variant is not compatible with all devices gpu's for app drawer
+- Fix broken fingerprint auth/error vibration toggles (author: neobuddy89)
+- Fix smartspace text overlap on ambient display when alarm icon visible or media playing (author: ghostrider-reborn)
+- Fix expanded launcher popup categories layout when icon labels disabled (author: neobuddy89)
+- Improve on-going progress chip color handling while switching from light/dark theme (author: Ghosuto)
+- Fix advanced reboot powermenu color on light theme
+- Add basic circle battery styles / option to show only battery percent hiding battery icon (author: luk1337)
+- Prevent media album bitmaps from impacting performance (author: rmp22)
+- Fix a condition when device became unresponsive for few seconds while unlocking after a long deep sleep
+- Fix three buttons navigation recents double tap action (author: neobuddy89)
+- Add SpaceGrotesk Font (author: Ghosuto)
+- Remove qs clock header styles (not compatible with many devices after qpr1)
+=================
+
+
 Date - 29-12-2025
 =================
 - Merge tag 'android-16.0.0_r3' (QPR1) [Complete source rebase]
