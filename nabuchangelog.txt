@@ -3,6 +3,28 @@ Device code name : nabu
 Device maintainer: crsswrld5G
 our new telegram group: https://t.me/InfinityXnabu
 
+Date - 19-01-2026
+=================
+- Fixed slight flickering during hdr playback.
+- Fixes for voip call and volume adjustments. (apps like discord etc)
+- Added support for miui 12.5 firmware and game mode toggle to enable it. (better touch latency)
+- Added support to toggle around the the smart cover flap lid_behavior.
+- Dropped vorbis offloading support.
+- Fix some apps/games storage permission access/create issue (author: rmp22)
+- Add custom font ttf/otf import feature (author: rmp22)
+- Add toggle to enable Pixel smartspace style on lockscreen (author: aswin7469, nivlafx, ralph950412, ghostrider-reborn)
+- Add feature to enable multi audio focus i.e. Allow multiple apps to play audio at same time (author: rmp22)
+- Fix system corrupt issue on 0 value for some seekbar instances (eg. quick settings columns and rows etc.)
+- Fix volume panel layout issues in landscape mode (author: shutter-cat)
+- Add toggleable waveform media player seekbar toggle (author: rmp22, Ghosuto)
+- Improve network speed indicator alignment with network icon
+- Fix advanced reboot powermenu color on light theme
+- Bring back default four bars network icon
+- Add grayscale tint to weather icon in dozing state / AOD (author: Ghosuto)
+- Remove empty space from bundled notification settings and notification summary settings
+- Xiaomi-sm8150-kernel upstream.
+=================
+
 Date - 07-01-2025
 =================
 - Bump security string to January 2026 (author: mikeNG)
