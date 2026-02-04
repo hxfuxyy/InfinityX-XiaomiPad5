@@ -1,160 +1,40 @@
-Device: Xiaomi Pad 5
-Device code name : nabu
 Device maintainer: crsswrld5G
 our new telegram group: https://t.me/InfinityXnabu
 
 Date - 19-01-2026
 =================
-- Fixed slight flickering during hdr playback.
-- Fixes for voip call and volume adjustments. (apps like discord etc)
-- Added support for miui 12.5 firmware and game mode toggle to enable it. (better touch latency)
-- Added support to toggle around the the smart cover flap lid_behavior.
-- Dropped vorbis offloading support.
-- Fix some apps/games storage permission access/create issue (author: rmp22)
-- Add custom font ttf/otf import feature (author: rmp22)
-- Add toggle to enable Pixel smartspace style on lockscreen (author: aswin7469, nivlafx, ralph950412, ghostrider-reborn)
-- Add feature to enable multi audio focus i.e. Allow multiple apps to play audio at same time (author: rmp22)
-- Fix system corrupt issue on 0 value for some seekbar instances (eg. quick settings columns and rows etc.)
-- Fix volume panel layout issues in landscape mode (author: shutter-cat)
-- Add toggleable waveform media player seekbar toggle (author: rmp22, Ghosuto)
-- Improve network speed indicator alignment with network icon
-- Fix advanced reboot powermenu color on light theme
-- Bring back default four bars network icon
-- Add grayscale tint to weather icon in dozing state / AOD (author: Ghosuto)
-- Remove empty space from bundled notification settings and notification summary settings
-- Xiaomi-sm8150-kernel upstream.
+Changelog for stable version 3.7 (QPR2) :
+
+(General changelog) :
+- Merge tag 'android-16.0.0_r4' (QPR2) [Complete source rebase]
+- Dropped some features due to incompatibility with QPR2 such as Custom launcher icon pack and ambient edgle light. That's all, everything else is still present and intact
+- Bring back nothingos style ringer tile from v3.5
+- Improve nothingos style ringer tile handling with DND mode (author: shutter-cat)
+- Refactor ongoing progress action chip to jetpack compose (author: shutter-cat)
+- Fix sluggish/laggy scrolling in Freeform window (author: kenway214)
+- Improved spacing above & below of settings style animated header
+- Fixed abnormal bootstate detection (author: neobuddy89)
+- Bring back bluetooth timeout feature (author: Uldiniad, neobuddy89, idoybh)
+- Fix qs tiles camouflage when pure black qs theme enabled / blurs disabled
+- Use solid black/white color in keyguard bouncer (pin/password entering page) when blurs disabled
+- Bring back lockscreen clock fonts feature (author: neobuddy89)
+- Allow to hide battery icon from statusbar
+- Return AOSP messaging for all
+- Add Desktop mode pill settings
+
+(Fixes over v3.7 beta source that was released on 26/01/2026) :
+- Show lockscreen widgets preference and enable support for QPR2 lockscreen widgets feature (author: aswin7469)
+- Allow user to directly enable mobile data from data tile without warning popup (author: neobuddy89)
+- Fix an issue where icons/widgets couldn't be placed at Quickspace area even if at a glance disabled
+- Fix improper dock/row padding when homescreen search bar disabled
+- Fix ambient wallpaper only usable on AOD, and make it usable on ambient display too (author: neobuddy89)
+- Fix adaptive playback toggleс
+- Fix statusbar padding
+- Fix lockscreen rotation stay
+- Fix quicksettings expand from anywhere
+
+Dropped features in v3.7 (Due incompatibility with QPR2):
+• Ambient edge light
+• Custom launcher icon pack
 =================
 
-Date - 07-01-2025
-=================
-- Bump security string to January 2026 (author: mikeNG)
-- sepolicy gap fixes after pen charging impl
-- enable USB and skin temperature warnings
-- Fixed an unusal random reboot caused by BPF.
-- Fixed auto-brightness downscaling issue in low light.
-- Fixed the display scaling reported on devices with replaced & chineese panel.
-- Fixed a glitch where some apps were reporting and resizing to wrong resolution.
-- Implemented support for Stylus charging notification like stock for compatible stylus.
-- Upgraded kernel clang version to 21.
-- More upstream fixes in kernel.
-- Return app drawer pure black/white background (when opacity 100) to newly qpr1 introduced bottom sheet version of app drawer since the qpr1 blur variant is not compatible with all devices gpu's for app drawer
-- Fix broken fingerprint auth/error vibration toggles (author: neobuddy89)
-- Fix smartspace text overlap on ambient display when alarm icon visible or media playing (author: ghostrider-reborn)
-- Fix expanded launcher popup categories layout when icon labels disabled (author: neobuddy89)
-- Improve on-going progress chip color handling while switching from light/dark theme (author: Ghosuto)
-- Fix advanced reboot powermenu color on light theme
-- Add basic circle battery styles / option to show only battery percent hiding battery icon (author: luk1337)
-- Prevent media album bitmaps from impacting performance (author: rmp22)
-- Fix a condition when device became unresponsive for few seconds while unlocking after a long deep sleep
-- Fix three buttons navigation recents double tap action (author: neobuddy89)
-- Add SpaceGrotesk Font (author: Ghosuto)
-- Remove qs clock header styles (not compatible with many devices after qpr1)
-=================
-
-
-Date - 29-12-2025
-=================
-- Merge tag 'android-16.0.0_r3' (QPR1) [Complete source rebase]
-- Some overlay updates for better blur handling.
-- Disable a few unneeded stuff here and there.
-- Xiaomi-SM8150-common upstream.
-- Support for Wifi Aware and Wifi RTT.
-- Fixed the brightness behaviour aligned with stock displayconfig.
-- Cleaned up redundant overlay configuration after the above change.
-- Disabled blur effects by default as mentioned just above
-- Major enhancements on GameSpace - improve statusbar call overlay / allow to disable headsup notification / improve danmaku notification layout / New gamespace panel layout and much more fixes and enhancements
-- Dropped some features due to incompatibility with QPR1 such as per-app volume control / volume steps / statusbar icon themes (in sake of new qpr1 statusbar) / flashlight strength / nothingos ringer tile / volume panel textview / system animation styles / bluetooth timeout. That's all, everything else is still present and intact
-- Make statusbar clock chip styles apply without restarting systemui
-- Fix weather daemon location hogging (author: neobuddy89)
-- Fix an occasional case where only notification panel was showed upon pull down without tiles.. (author: hellboy017)
-- Add new pulse render style (author: Ghosuto)
-- Fix smart pixels toggles reset on page exit
-- Fixed an issue where lawnicons didn't apply as themed icons direct after first boot
-=================
-
-
-Date - 09-12-2025
-=================
-- Merge tag 'android-security-16.0.0_r3' to multiple repos (Considerably huge changes)
--Fixes choppy audio due to missing audio fast flag.
-- Bring back sound backend usecase files for scenarios.
-- Bring in Dex optimisations from OP8150-common
-- Inlined pinner configurations from OP8150-common
-- ignoreOrientationRequests is true, Rotate your apps however you like.
-- Switch to ClearKey APEX with widevine L1
-- More changes affecting UX of the overall OS.
-- Xiaomi SM8150-common kernel upstream.
-- Fix high battery drain / temperature rise in some normal-use instances that occured after v3.4 release
-- Fix higher idle drain loop in longer period of inactivity like at night
-- Allow user to enable glass blur effect system-wide, (its even better on qs panel which comes without any artefacts like that are present on default AOSP blur) (author: rmp22)
-- Allow disabling HDR display boot (author: rmp22)
-- Allow controlling HDR display brightness (author: rmp22)
-- Don't remove gamespace app from recents on exit (author: neobuddy89)
-- Fix adaptive playback toggle reset on page exit
-- Smoothen animations and transitions 
-- Allow importing GIF too as custom header image (author: kamikaonashi)
-- Disable keybox spoofing too if user disables "play integrity fix" toggle
-=================
-
-
-Date - 01-12-2025
-=================
-- Bundles in the fix for bad systemui ux because of blur.
-- KsuN updated with latest patches & susfs 1.5.12.
-- susfs sus_maps support.
-- Xiaomi-sm8150-common upstream.
-- Fix multiple mic paths.
-- Remove support for FRP
-- Fixed jank for even smoother UX.
-- Upgrade the device to Audio Hal & Effects Hal 7.1 and 7.0 respectively.
-- Remove AUDIO_OUTPUT_FAST_FLAG from the primary output path to supress warnings.
-- Remove usecase files taht were causing the device to hard reboot on apps like discord.
-- Add NothingOS style ringer QS tile (author: rmp22)
-- Update Google sans flex font package to original latest release by google (author: neobuddy89)
-- Add system animation styles (Android P, Scale, Slide) (author: zeromod, Pzqqt, neobuddy89, kde-yyds, minaripenguin)
-- Allow to override Mock Location restriction (author: userariii)
-- More aggressive idle killing for improving idle draining
-- Fix messed up statusbar layout when wifi standard icon displayed (author: drkphnx)
-- Spoof developer options detection on bhim upi (author: hellboy017)
-- Only apply colored icon customizations to settings icons present on homepage, preventing them from getting applied on other options like under system settings etc.
-- Update monet custom color stub in theme picker from qpr1 (author: neobuddy89)
-- Add spark pulse renderer style (author: neobuddy89)
-- Add 3 more display cutouts (Render apps below cutout area, Hide, Wide cutout) (author: thestinger)
-- Hide many carrier/fingerprint/vibrator related options for devices which don't have the required hardware (like newer oneplus etc)
-- Move data disabled icon switch to statusbar tuner (author: hellboy017)
-- Move 4G icon instead LTE switch to statusbar tuner (author: RiteshSahany)
-- Adapt many more uncovered sections to Material expressive (author: neobuddy89, bgcngm)
-- Removed the large blank space from bundled notification and summarized notification settings
-- Fixup some toggle behaviour for batterybar
-- Fix statusbar half clipped issue for some devices on lockscreen
-- Add build date to device info page
-- Enable R8 code shrinking and optimizations by default (author: jdduke)
-- Smoother QS transition when blurs disabled (author: rbnj)
-- Make the about phone section cards enlarged again like v3.2 and v2.9
-- Add system-wide Italian translations
-- Add new oneplus udfps icon to custom udfps icons (author: Ghosuto)
-- Re-include contacts app from v3.2 and v2.9
-=================
-
-Date - 14-11-2025
-=================
-- Pass integrity by default once again
-- Fixed issue with playstore showing some apps (Eg. JioFinance etc.) as not compatible on the device
-- Add toggles to spoof Snapchat, Netflix, Google app to pixel model in spoofing settings
-- Add toggle to disable playstore spoof.
-- Disabling in-rom playintegrity fix is also made more effective now.. If you wish to apply playintegrityfix from external modules, you can disable in-rom >
-- Fixed hide screen capture status feature
-- Allow monet settings chroma factor / luminance sliders to achieve negative values
-- Add toggle for ambient media art (author: neobuddy89)
-- Enable "install available apps" in Settings (author: empratyush)
-- Add translations to LMOFreeForm
-- Ground up implementation of custom AMP hal for QUAD channel speakers.
-- Remove Xiaomi's proprietary Audio stack, mixers and other configs.
-- Remove hacky patched blobs.
-- Complete ground up implementation of mixers.
-- Working OSS 8150 Audio hal on Quad Speakers.
-- Increased Mic Gain by 12% and speaker gain by 8%.
-- Latest Xiaomi SM8150 common kernel with susfs 1.5.9 & KernelSU Next.
-- Fixed crackling noise output happening during ull playback.
-- Fixed the audio properties and tuned buffer sizes for no get_presentation_* hal warnings and missed audio.
-=================
