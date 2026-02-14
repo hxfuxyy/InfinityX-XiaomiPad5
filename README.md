@@ -1,6 +1,6 @@
 # Running ProjectInfinityX on the Xiaomi Pad 5
 
-[![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/ZxcwsurxRomSupport)
+[![new support group](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/InfinityXnabu)
 
 ## Get Started
 - [**`📥Installation`**](guide/installation.md)
