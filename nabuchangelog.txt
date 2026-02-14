@@ -4,37 +4,31 @@ our new telegram group: https://t.me/InfinityXnabu
 Date - 19-01-2026
 =================
 Changelog for stable version 3.7 (QPR2) :
-
-(General changelog) :
-- Merge tag 'android-16.0.0_r4' (QPR2) [Complete source rebase]
-- Dropped some features due to incompatibility with QPR2 such as Custom launcher icon pack and ambient edgle light. That's all, everything else is still present and intact
-- Bring back nothingos style ringer tile from v3.5
-- Improve nothingos style ringer tile handling with DND mode (author: shutter-cat)
-- Refactor ongoing progress action chip to jetpack compose (author: shutter-cat)
-- Fix sluggish/laggy scrolling in Freeform window (author: kenway214)
-- Improved spacing above & below of settings style animated header
-- Fixed abnormal bootstate detection (author: neobuddy89)
-- Bring back bluetooth timeout feature (author: Uldiniad, neobuddy89, idoybh)
-- Fix qs tiles camouflage when pure black qs theme enabled / blurs disabled
-- Use solid black/white color in keyguard bouncer (pin/password entering page) when blurs disabled
-- Bring back lockscreen clock fonts feature (author: neobuddy89)
-- Allow to hide battery icon from statusbar
-- Return AOSP messaging for all
-- Add Desktop mode pill settings
-
-(Fixes over v3.7 beta source that was released on 26/01/2026) :
-- Show lockscreen widgets preference and enable support for QPR2 lockscreen widgets feature (author: aswin7469)
-- Allow user to directly enable mobile data from data tile without warning popup (author: neobuddy89)
-- Fix an issue where icons/widgets couldn't be placed at Quickspace area even if at a glance disabled
-- Fix improper dock/row padding when homescreen search bar disabled
-- Fix ambient wallpaper only usable on AOD, and make it usable on ambient display too (author: neobuddy89)
-- Fix adaptive playback toggleс
-- Fix statusbar padding
-- Fix lockscreen rotation stay
-- Fix quicksettings expand from anywhere
-
-Dropped features in v3.7 (Due incompatibility with QPR2):
-• Ambient edge light
-• Custom launcher icon pack
+- Update ksu version to v3.0.1
+- Add Lockscreen Custom Clock Styles feature
+- Add NothingOS style Lockscreen Widgets feature 
+- Add Depth Wallpaper Feature
+- Bring back Per-App Volume Feature (author: NurKeinNeid)
+- Bring back custom launcher icon pack feature (author: neobuddy89)
+- Add toggle-able redesigned expandable volume panel (author: rmp22) (To use back stock AOSP volume panel, Disable "Use Expanded Volume Dialog" Toggle in "Infinity Suite > Buttons"
+- Allow Hold to open flashligh strength seekbar even in unexpanded flashlight tile
+- Restore media player play/pause icon to qpr1 style
+- Fix vtservice cpu hogging in some instances (author: bengris32)
+- Improve depth wallpaper handling (fix reset after qs exit and when switching from AOD/ambient display, hide properly from lockscreen QPR2 widgets section)
+- Fixed app freeze when quickly calling app from recents while navigation hint is hidden
+- Bring back edge light feature (author: neobuddy89)
+- Add toggle to disable stacked combined signal statusbar icon (restoring 2 signal icons) on dual sim (author: Ghosuto)
+- Fixed outline statusbar chip style clock staying white in light mode causing camouflage 
+- Add toggle to restore traditional QPR0 style app drawer layout (without forced bottom sheet)
+- Another attempt fixing Android/data folder creation on some apps post QPR1 (author: cevente)
+- Restore ongoing progress chip tunings as like in previous versions (author: NurKeinNeid)
+- Add toggle to make QS panel bg single-toned (using same color for both the QS panel and the notification section, disabling the differently colored notification panel scrim) (author: Ghosuto)
+- Add QS Volume Tile (author: rmp22)
+- Use Material3 switches throughout relevant QS tiles (author: Hellboy017) 
+- Improve generated toast views
+- Fix issues on Lockscreen QPR2 widgets section when media art showing
+- Fix an issue where app drawer clicked screenshot always pinned at top of gallery (author: someone5678)
+- Improve hide adb/developer spoofing (author: rmp22)
+- Fix NavBar haptic feedback after Bluetooth device disconnect (author: Wu Shaokang)
 =================
 
