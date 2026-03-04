@@ -1,34 +1,66 @@
 Device maintainer: crsswrld5G
 our new telegram group: https://t.me/InfinityXnabu
 
-Date - 19-01-2026
+Date - 04-03-2026
 =================
-Changelog for stable version 3.7 (QPR2) :
-- Update ksu version to v3.0.1
-- Add Lockscreen Custom Clock Styles feature
-- Add NothingOS style Lockscreen Widgets feature 
-- Add Depth Wallpaper Feature
-- Bring back Per-App Volume Feature (author: NurKeinNeid)
-- Bring back custom launcher icon pack feature (author: neobuddy89)
-- Add toggle-able redesigned expandable volume panel (author: rmp22) (To use back stock AOSP volume panel, Disable "Use Expanded Volume Dialog" Toggle in "Infinity Suite > Buttons"
-- Allow Hold to open flashligh strength seekbar even in unexpanded flashlight tile
-- Restore media player play/pause icon to qpr1 style
-- Fix vtservice cpu hogging in some instances (author: bengris32)
-- Improve depth wallpaper handling (fix reset after qs exit and when switching from AOD/ambient display, hide properly from lockscreen QPR2 widgets section)
-- Fixed app freeze when quickly calling app from recents while navigation hint is hidden
-- Bring back edge light feature (author: neobuddy89)
-- Add toggle to disable stacked combined signal statusbar icon (restoring 2 signal icons) on dual sim (author: Ghosuto)
-- Fixed outline statusbar chip style clock staying white in light mode causing camouflage 
-- Add toggle to restore traditional QPR0 style app drawer layout (without forced bottom sheet)
-- Another attempt fixing Android/data folder creation on some apps post QPR1 (author: cevente)
-- Restore ongoing progress chip tunings as like in previous versions (author: NurKeinNeid)
-- Add toggle to make QS panel bg single-toned (using same color for both the QS panel and the notification section, disabling the differently colored notification panel scrim) (author: Ghosuto)
-- Add QS Volume Tile (author: rmp22)
-- Use Material3 switches throughout relevant QS tiles (author: Hellboy017) 
-- Improve generated toast views
-- Fix issues on Lockscreen QPR2 widgets section when media art showing
-- Fix an issue where app drawer clicked screenshot always pinned at top of gallery (author: someone5678)
-- Improve hide adb/developer spoofing (author: rmp22)
-- Fix NavBar haptic feedback after Bluetooth device disconnect (author: Wu Shaokang)
+Changelog for stable version 3.8 (QPR2) :
+- Merge March 2026 Security Patch 
+- Resolve down "copy crash log url" and shift to paste.projectinfinity-x.com
+- Add Pixel Magic Portrait Wallpapers support 
+- Add emoji wallpaper workshop 
+- Allow re-enabling the pitch black qs tiles color with a toggle as seen in qpr1
+- Fix specific screenrecord/dialer notification flicker (color change) issue when transparent notifications enabled (author: neobuddy89)
+- Bring back QS Clock headers from v3.5 
+- Fix network settings missing reset button (author: Alex Cruz)
+- Fix monet luminance and chroma factor sliders
+- Add punch-hole cutout progress feature (author: Ghosuto)
+- Add lockscreen charging visual effects (author: Ghosuto)
+- Perform text scrolling on toasts for exceeding characters (author: minaripenguin)
+- Move icon shapes to wallpaper and styles and add 9 more icon shapes (author: althavfvly, neobuddy89)
+- Add feature to set custom image on AOD (author: minaripenguin)
+- Add QS Tiles / Brightness slider / Volume slider gradient color customisation (author: neobuddy89)
+- Restore red character color of oneplus style lockscreen clock
+- Remove crooked languages display in the language section which caused even a bootloop 
+- Fine tune extreme close network traffic indicator right padding
+- Switch to mirror blur (author: rmp22)
+- Add support for daily and weekly data usage cycles (author: idoybh)
+- Fabricate new preview UI for clock chips and status bar logos (author: neobuddy89)
+- Add 130 more udfps icons (author: neikos4962)
+- Improve QS Panel spacing
+- Add QS footer settings customisation (author: neobuddy89)
+- Add monet settings preview illustration (author: minaripenguin)
+- Add missing icon for adaptive connectivity preference (author: kleidione)
+- Improve udfps/fp enroll introduction/finish layout (author: adithya2306)
+- Fix pitch black notification scrim color on stock qs panel colors style in dark mode
+- Add a slither game in Updater 
+- Patch mount on a locked device detection (author: SamarV-121)
+- Fix digital wellbeing / GoogleTTS crash on first boot
+- Fix notifications/media player not appearing on lockscreen with custom clock styles
+- Add feature to adjust height of  lockscreen clock styles
+- Allow to change color of lockscreen clock styles
+- Allow to adjust transparency of lockscreen clock styles
+- Fix high ram usage while using custom lockscreen clock styles
+- Add toggle for translucent notifications on lockscreen/QS (author: rmp22 & neobuddy89)
+- Add scroll optimizer implementation (author: rmp22)
+- Fix security & privacy settings preferences crash
+- Hide navigation bar on lockscreen/AOD/doze/bouncer
+- Allow disabling private DNS for VPN (author: idoybh)
+- Fix a rare black screen freeze issue after unlocking device 
+- Fix 1st app row clipping when app drawer bottom sheet disabled
+- Make circle battery icons appear red on lower battery level (author: luk1337)
+- Fix right statusbar logo appearing before battery icon (author: neobuddy89)
+- Add charging bolt indicator for text-only battery style (author: Ghosuto)
+- Improve statusbar burn-in protection
+- Allow to use lockscreen carrier name while custom lockscreen clock styles in use
+- Fix invert navbar layout on taskbar (author: neobuddy89)
+- Use seekbar to allow setting arbitrary animation values (author: hyperb1iss)
+- Reset mobile data always on developer setting correctly (author: adithya2306)
+- Allow to enable hotspot as a hidden network ssid (author: cjybyjk)
+- Fix long pressing private dns tile pointing nowhere (author: idoybh)
+- Tonnes of improvements for QuickTap feature (author: someone5678 & NurKeinNeid)
+- Fixed AVC playback quality degradation.(author: dev_harsh1998)
+- Added performance entries for low latency AVC decoder.(author: dev_harsh1998)
+- Added missing bluetooth device id.(author: dev_harsh1998)
+- Fixed display blob crashes due to missing symbols. (author: dev_harsh1998)
 =================
 
