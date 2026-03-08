@@ -1,6 +1,7 @@
 # Running ProjectInfinityX on the Xiaomi Pad 5
-
+[![Latest Release](https://img.shields.io/github/v/release/hxfuxyy/infota?label=Latest%20Release&style=flat-square)](https://github.com/hxfuxyy/infota/releases/latest)
 [![new support group](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/InfinityXnabu)
+
 
 ## Get Started
 - [**`📥Installation`**](guide/installation.md)
