@@ -157,4 +157,4 @@ If you're updating to a newer version, a factory reset is **not required**.
 > [!Warning]
 > Always verify that the ZIP or update file matches your current ROM version. Installing an incompatible version may cause boot loops or permanent damage.
 
-> Maded by [tvorogo](github.com/tvorogo) and [hxfuxyy](https://github.com/hxfuxyy/)
+> Maded by [tvorogo](https://github.com/tvorogo) and [hxfuxyy](https://github.com/hxfuxyy/)
