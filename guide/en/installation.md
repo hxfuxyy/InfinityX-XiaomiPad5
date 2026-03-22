@@ -1,3 +1,23 @@
+# InfinityX Installation Guide
+> [!Warning]
+> The provided instructions are for InfinityX running on Xiaomi Pad 5 (nabu). These will only work if you follow every section and step precisely.
+
+## Pre-installation
+
+Download the following files from [```Releases```](https://github.com/hxfuxyy/infota/releases/):
+- **InfinityX.zip** — ROM file for ADB sideload
+- **boot.img**, **vendor_boot.img**, **dtbo.img** — required only for **Option A (ADB Sideload)**
+
+If you plan to use the **Auto Installer** (PC script-based installation), you only need to download it from the **pinned message** in the [t.me/InfinityXnabu](https://t.me/InfinityXnabu) Telegram chat — no other files required.
+
+---
+
+## Step 1: Flash Recovery
+
+> [!Note]
+> This step is only required for **Option A (ADB Sideload)**. If you plan to use the **Auto Installer**, skip directly to [Option B](#option-b-auto-installer-pc-scripts).
+> This step can also be skipped if you already have a compatible custom recovery installed.
+
 1. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) and type:
 ```cmd
 adb -d reboot bootloader
@@ -137,4 +157,4 @@ If you're updating to a newer version, a factory reset is **not required**.
 > [!Warning]
 > Always verify that the ZIP or update file matches your current ROM version. Installing an incompatible version may cause boot loops or permanent damage.
 
-> Maded by [tvorogo](github.com/tvorogo) and [hxfuxyy](https://github.com/hxfuxyy/)
+> Maded by [tvorogo](https://github.com/tvorogo) and [hxfuxyy](https://github.com/hxfuxyy/)
