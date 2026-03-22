@@ -5,12 +5,23 @@
 [![Total Downloads](https://img.shields.io/github/downloads/hxfuxyy/infota/total?label=Total%20Downloads&style=flat-square)](https://github.com/hxfuxyy/infota/releases)
 [![Latest Downloads](https://img.shields.io/github/downloads/hxfuxyy/infota/latest/total?label=Latest%20Downloads&style=flat-square)](https://github.com/hxfuxyy/infota/releases/latest)
 
+---
+
+## 🌐 Language / Мова / Язык
+
+**[English](guide/en/installation.md)** | [Українська](guide/uk/installation.md) | [Русский](guide/ru/installation.md)
+
+---
 
 ## Get Started
-- [**`📥Installation`**](guide/installation.md)
+- [**`📥 Installation`**](guide/en/installation.md)
 
 ## Miscellaneous
-- [**`❗Troubleshooting`**](guide/troubleshooting.md)
-- [**`🔓Bootloader unlocking guide`**](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/English/unlock-bootloader-en.md)
-- [**`📱Rooting`**](guide/root.md)
-- [**`💾TWRP Guide`**](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
+- [**`❗ Troubleshooting`**](guide/en/troubleshooting.md)
+- [**`🔓 Bootloader unlocking guide`**](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/English/unlock-bootloader-en.md)
+- [**`📱 Rooting`**](guide/en/root.md)
+- [**`💾 TWRP Guide`**](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
+
+---
+
+> 🇺🇦 Ukrainian translation: [fol4ikgmd](https://github.com/fol4ikgmd)
