@@ -45,7 +45,3 @@ adb reboot
 
 
 ## Готово!
-
----
-
-> 🇺🇦 Переклад: [fol4ikgmd](https://github.com/fol4ikgmd)
