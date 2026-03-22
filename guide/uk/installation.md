@@ -160,5 +160,3 @@ sudo bash ./update_..._linux.sh     # оновлення існуючої про
 ---
 
 > Зроблено [tvorogo](https://github.com/tvorogo) та [hxfuxyy](https://github.com/hxfuxyy/)
->
-> 🇺🇦 Переклад українською: [fol4ikgmd](https://github.com/fol4ikgmd)
