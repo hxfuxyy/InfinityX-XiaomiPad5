@@ -1,9 +1,15 @@
 Device maintainer: crss5G
 our new telegram group: https://t.me/InfinityXnabu
 
-Date - 14-03-2026
+Date - 25-03-2026
 =================
 Changelog for stable version 3.8 (QPR2) :
+- Fix custom clocks not displaying when switching between portrait and landscape orientation
+- Fix "Android/Data" issue
+- KernelSU related fixes in common kernel. (author: crdroid team)
+- Upgraded camera hal from 2.4 hidl to aidl service.(author: dev-harsh1998)
+- Fixed the timings for Hardware Composer minimum duration for 120hz screen.(author: dev-harsh1998)
+- PenCharging notifier has been upgraded to show status as fully charged instead of being stuck at 99%.(author: dev-harsh1998)
 - Add new homescreen QPR1 style revamped search bar with toggle to switch b/w old and new (author: NurKeinNeid for new searchbar outer shape, Icons, Ai search button Implementation)
 - Redesigned App drawer search bar to Pixel style 
 - Revamp Ongoing progress chip and Ongoing Media Progress chip (author: neobuddy89, Ghosuto, shutter-cat, NurKeinNeid) 
