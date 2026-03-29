@@ -44,4 +44,4 @@
 - [**dev-harsh1998**](https://github.com/dev-harsh1998/android_device_xiaomi_nabu) — древо планшета
 - [**KernelSU-Next team**](https://github.com/KernelSU-Next/KernelSU-Next) — рут-решение KernelSU-Next
 - [**erdilS и контрибьюторы гайда nabu**](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/graphs/contributors) — структура документации
-- Всем в [t.me/InfinityXnabu](https://t.me/InfinityXnabu), кто тестирует, репортит баги и поддерживает проект живым ❤️
+- Всем в [чате телеграм](https://t.me/InfinityXnabu), кто тестирует, репортит баги и поддерживает проект живым ❤️
