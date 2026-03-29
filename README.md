@@ -43,5 +43,5 @@
 - [**ArKT-7**](https://github.com/ArKT-7) — AutoInstaller-Forge, TWRP & many Fixes
 - [**dev-harsh1998**](https://github.com/dev-harsh1998) — device tree
 - [**KernelSU-Next team**](https://github.com/KernelSU-Next/KernelSU-Next) — KernelSU-Next root solution
-- [**erdilS & contributors**](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5) — nabu documentation structure reference
-- Everyone in [t.me/InfinityXnabu](https://t.me/InfinityXnabu) who tests, reports bugs, and keeps the project alive ❤️
+- [**erdilS & contributors from nabu guide**](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/graphs/contributors) — documentation structure reference
+- Everyone in [telegram chat](https://t.me/InfinityXnabu) who tests, reports bugs, and keeps the project alive ❤️
