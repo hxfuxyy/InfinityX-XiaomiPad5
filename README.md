@@ -39,7 +39,7 @@
 
 ## Special thanks
 
-- [**ProjectInfinity-X**](https://github.com/ProjectInfinity-X) — fro base ROM source
+- [**ProjectInfinity-X**](https://github.com/ProjectInfinity-X) — for base ROM source
 - [**ArKT-7**](https://github.com/ArKT-7) — for AutoInstaller-Forge, TWRP & many Fixes
 - [**dev-harsh1998**](https://github.com/dev-harsh1998/android_device_xiaomi_nabu) — for device tree
 - [**KernelSU-Next team**](https://github.com/KernelSU-Next/KernelSU-Next) — for KernelSU-Next root solution
