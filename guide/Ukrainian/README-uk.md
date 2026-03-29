@@ -35,8 +35,7 @@
 
 ## Мейнтейнери
 
-[<img alt="hxfuxyy" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/hxfuxyy?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/hxfuxyy)
-[<img alt="tvorogo" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/tvorogo?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/tvorogo)
+[<img alt="hxfuxyy" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/190541853?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/hxfuxyy)
 
 ## Подяки
 
