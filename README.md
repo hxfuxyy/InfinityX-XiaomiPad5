@@ -4,8 +4,8 @@
 
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/InfinityXnabu)
 [![Donate](https://img.shields.io/badge/Donate-Support%20Us-orange.svg?style=flat-square)](https://linktr.ee/zxcwsurx)
-[![Latest Release](https://img.shields.io/github/v/release/hxfuxyy/infota?label=Latest%20Release&style=flat-square)](https://github.com/hxfuxyy/infota/releases/latest)
-[![Total Downloads](https://img.shields.io/github/downloads/hxfuxyy/infota/total?label=Total%20Downloads&style=flat-square)](https://github.com/hxfuxyy/infota/releases)
+[![Latest Release](https://img.shields.io/github/v/release/hxfuxyy/InfinityX-XiaomiPad5?label=Latest%20Release&style=flat-square)](https://github.com/hxfuxyy/InfinityX-XiaomiPad5/releases/latest)
+[![Total Downloads](https://img.shields.io/github/downloads/hxfuxyy/InfinityX-XiaomiPad5/total?label=Total%20Downloads&style=flat-square)](https://github.com/hxfuxyy/InfinityX-XiaomiPad5/releases)
 
 ## Language
 **`English`** | [`Українська`](/guide/Ukrainian/README-uk.md) | [`Русский`](/guide/Russian/README-ru.md)
