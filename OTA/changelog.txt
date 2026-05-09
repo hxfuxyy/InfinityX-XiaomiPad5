@@ -1,64 +1,53 @@
 Device maintainer: crss5G
 our telegram group: https://t.me/InfinityXnabu
 
-Date - 03-04-2026
+Date - 08-05-2026
 =================
-- Add statusbar/lockscreen dynamic bar implementation (https://t.me/ProjectInfinityX/1831) (author: rmp22)
-- Add App drawer customizations and tunings (https://t.me/ProjectInfinityX/1832) (author: shutter-cat, pbzinwindows, ChrisCatto)
-- Add Toggle to launch notification apps in bubble or floating screen (author: shutter-cat)
-- Add optional toggleable Classic style QS Panel along with tile shapes and ability to hide labels (https://t.me/ProjectInfinityX/1838) (author: neobuddy89)
-- Allow switching to default Android 16 brightness slider style
-- Add detailed Idle manager with advanced per-app control  (https://t.me/ProjectInfinityX/1844)(author: Ghosuto)
-- Add 11 more Lockscreen custom clock styles (author: IDontCare-05, spkal01, Ghosuto)
-- Fix custom clock styles disappearing on tablets or landscape rotation (author: crss5G)
-- Allow applying volume panel gradient customization to extended volume panel style
-- Allow showing Volume percentage on extended and expanded volume panel style 
-- Add toggle to kill Flash SMS messages (author: adithya2306)
-- Simplify Always-on-Display charging checks (author: NurKeinNeid)
-- Remove QS boost hints that lead to battery drain / heat
-- Remove unnecessary scrolling boost hints that lead to battery drain / heat
-- Add back lockscreen weather wind and humidity info from v3.7
-- Remove ongoing media chip // Fixes systemui crash issues while media was playing with media chip enabled
-- Add optional Glow effect in notch ring (author: hxreborn)
-- Add music playback progress in cutout ring  (author: Ghosuto)
-- Improve padding for search icon in app drawer search bar when google app disabled
-- Add launcher wallpaper carousel (author: MrSluffy)
-- Fix default fonts display for regular and headline in QS Panel
-- Fix NPE in CallListener Gamespace (author: neobuddy89)
-- Fix scrolling in recovery image when touch is rotated (author: AnierinBliss)
-- Allow changing size of custom clock styles (author: Ghosuto)
-- Fix PlanesLockGuard buffer lock leak in av (author: jsebechlebsky)
-- Fix preferences in launcher3 icon pack fragment turning purple upon clicking (author: neobuddy89)
-- Hide VmTerminal fragment if device doesn't support it (author: luk1337)
-- Improvements on memory usage and battery backup
-=================
-
-Date - 25-03-2026
-=================
-Changelog for stable version 3.8 (QPR2) :
-- Fix custom clocks not displaying when switching between portrait and landscape orientation
-- Fix "Android/Data" issue
-- KernelSU related fixes in common kernel. (author: crdroid team)
-- Upgraded camera hal from 2.4 hidl to aidl service.(author: dev-harsh1998)
-- Fixed the timings for Hardware Composer minimum duration for 120hz screen.(author: dev-harsh1998)
-- PenCharging notifier has been upgraded to show status as fully charged instead of being stuck at 99%.(author: dev-harsh1998)
-- Add new homescreen QPR1 style revamped search bar with toggle to switch b/w old and new (author: NurKeinNeid for new searchbar outer shape, Icons, Ai search button Implementation)
-- Redesigned App drawer search bar to Pixel style 
-- Revamp Ongoing progress chip and Ongoing Media Progress chip (author: neobuddy89, Ghosuto, shutter-cat, NurKeinNeid) 
-- Revamp brighntess slider styles and add toggle to enable minimal brightness slider (author: Ghosuto, rmp22)
-- Fixed recent apps scrolling animation skips
-- Add slider to adjust space between homescreen searchbar and 1st app row
-- Fix stock qpr volume panel ring/vibrate/silent) switches not working in landscape mode (author: shutter-cat)
-- Address a battery/cpu hogging scenario
-- Fixed media not resuming even if volume increased from 0 when adaptive playback enabled
-- Increase net traffic right margin a bit more
-- Add 2 new custom clock styles (author: kshitij-bhale)
-- Add Recursive Casual font (author: kdrag0n)
-- Add remaining battery indicator in cutout progress (author: Ghosuto)
-- Fix backup settings crash occured in last release
-- Update settings app illustrations from Android Canary Release (author: aswin7469)
-- Fix launcher crash on early boot
-- Fix a reported "account suspend" issue in a game named "Free Fire" when higher fps game spoofing enabled, and also fix fps spoof in the particular game
+- Revert swappiness to 100 — nabu uses zram, not a disk partition (author: Dark-Matter7232)
+- Remove redundant doze_display_state_supported overlay (author: dev-harsh1998)
+- Set USB product string to "Xiaomi Pad 5" (author: dev-harsh1998)
+- Mark expanded Picture-in-Picture as available (author: dev-harsh1998)
+- Do not force DCI-P3 on adaptive color mode — fixes frame drops since Android 14 (author: basamaryan)
+- Enable on-screen keyboard with hardware keyboard by default (author: dev-harsh1998)
+- Fix zygisk not work
+- Add QS Panel styles (HyperOS/OxygenOS/InfinityX Style) (https://t.me/ProjectInfinityX/1850)
+- Add statusbar icon packs, signal-wifi icon styles, battery icon styles and charging animations (author: rmp22) (https://t.me/ProjectInfinityX/1860)
+- Fixed MyAirtel app and DigiLocker app crash and fixed other tons of banking apps
+- Switch GameSpace implementation to AxionOS 's gamespace (author: neobuddy89) (https://t.me/ProjectInfinityX/1862)
+- Allow changing system emoji styles to iOS or Samsung (author: TwistedVision518) (https://t.me/ProjectInfinityX/1865)
+- Make lockscreen notifications appear over depth wallpaper (author: yusufnoor786)
+- Add OmniJaws frontend inbuilt weather app (author: rmp22) (https://t.me/ProjectInfinityX/1868)
+- Fixed Firefox/browsers SystemUI crash on media playing when dynamic bar enabled
+- Fixed headsup dialer notification on incoming calls when dynamic bar enabled (author: neobuddy89)
+- Fixed dynamic bar download/other progress bars not updating on click to show expanded event & re-design dynamic bar lockscreen media popup view (author: rmp22)
+- Improve dynamic bar battery view on lockscreen along with actual charging info stats also allow to disable (author: neobuddy89)
+- Fixed dynamic bar messed up statusbar padding for some devices (eg. overlapping with statusbar or touching statusbar clock etc.)
+- Align dynamicbar lockscreen chip with keyguard indication margin (author: bijoyv9)
+- Suppress Dynamic Bar notifications when Danmaku notification is active (author: Saikrishna1504)
+- Added more screenrecorder options (author: rmp22) (https://t.me/ProjectInfinityX/1867)
+- Add QS Tiles animation styles (author: neobuddy89)
+- Enable statusbar burn-in protection for all devices by default
+- Restore stock android lockscreen bottom shortcut buttons along with size and paddings
+- Allow single tap behaviour instead of hold for lockscreen bottom shortcut buttons (author: prochy-exe)
+- Allow applying Monet colors to the lockscreen PIN and pattern screen (bouncer) view
+- Add feature to allow launching app in freeform window by swiping and holding it up in recents panel (author: ZL114514, zylhdrXP, DrDisagree)
+- Fixed smart pixels complete device freezing on use and improve logic
+- Make expanded volume panel ringer button shape completely circular
+- Add 2 new pulse styles along with toggle to configure bass haptics playback (author: neobuddy89)
+- Fixed QS tile inconsistent gradient colors with single tone tile style
+- Fixed camouflaging notifications footer buttons when alternate notification color enabled
+- Allow to show pure black/white qs notifications when alternate notification color disabled
+- Make statusbar display on lockscreen when media album art in use
+- Force disable all annoying inconsistent qs tile squish effects
+- New customizations for sidebar (author: kenway214)
+- Allow hiding lockscreen clock
+- Make volume slider haptics toggle work on expanded volume style too
+- Make idle manager more consistent and aggressive
+- Add toggle to prevent apps from launching the \"Get this app from Play\" screen when not installed from Play Store (author: joshuah345)
+- Live circle battery style colors based on events like low battery or charging (author: mikooomich)
+- Improve animations performance and system fluidity
+- Improve QS Panel janks/lag scenarios with plenty of notifications 
+- Disable unnecessary logging and overhead conditions impacting performance and leading to battery drains
 =================
 
 
